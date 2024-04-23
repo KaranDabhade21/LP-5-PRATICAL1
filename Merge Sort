@@ -1,0 +1,48 @@
+Certainly, here are the key points:
+
+1. **Merge Sort**: A divide-and-conquer algorithm that recursively divides the array into smaller sub-arrays, sorts them individually, and then merges them back together.
+
+2. **Parallel Merge Sort**: Adapting the Merge Sort algorithm to leverage parallelism using OpenMP, allowing multiple threads to work on sorting different parts of the array simultaneously.
+
+3. **OpenMP**: A library that facilitates parallel programming in languages like C, C++, and Fortran, providing directives to specify parallel regions and manage thread execution.
+
+4. **Implementation**: Writing code that divides the sorting task into smaller sub-tasks and assigns them to different threads using OpenMP directives like `#pragma omp parallel` and `#pragma omp task`.
+
+5. **Performance Measurement**: Evaluating the execution time of both the sequential and parallel versions of Merge Sort on various input sizes, measuring factors like speedup, efficiency, and scalability.
+
+6. **Benchmarking**: Testing the algorithms with different array sizes and configurations to understand their performance characteristics and identify any potential bottlenecks.
+
+7. **Analysis**: Analyzing the results to determine the effectiveness of parallelization, comparing the performance of the parallel implementation against the sequential version, and assessing the scalability of the parallel algorithm.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. **Merge Sort**: Algorithm that breaks down a list into smaller sub-lists until they are sorted, then merges them back together.
+  
+2. **Parallel Merge Sort**: Using multiple threads to sort different parts of the list at the same time, leveraging OpenMP for parallelism.
+
+3. **OpenMP**: Library for parallel programming in C/C++, allowing developers to write parallel code with directives like `#pragma omp`.
+
+4. **Implementation**: Writing code to split the sorting task among threads and synchronize their work to achieve parallelism.
+
+5. **Performance Measurement**: Comparing execution times of sequential and parallel Merge Sort on different input sizes to understand speedup and efficiency.
+
+6. **Benchmarking**: Testing algorithms with various inputs to assess performance and scalability.
+
+7. **Analysis**: Evaluating results to determine effectiveness of parallelization and compare performance against sequential version.
