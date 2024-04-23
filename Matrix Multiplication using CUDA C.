@@ -1,0 +1,30 @@
+1. **CUDA C**: Programming language extension for GPU computing.
+2. **Matrix Multiplication**: Process of multiplying two matrices to get a third matrix.
+3. **Kernel Function**: CUDA function executed on GPU.
+4. **Grid and Blocks**: Organize threads into 2D or 3D grid and blocks for parallelism.
+5. **Thread Indexing**: Identifies each thread's position in the grid.
+6. **Memory Management**: Allocates memory on CPU and GPU.
+7. **Data Transfer**: Moves data between CPU and GPU memory.
+8. **Parallel Execution**: Determines thread and block configuration for parallelism.
+9. **Shared Memory**: Memory shared among threads in a block for faster access.
+10. **Matrix Dimensions**: Determines the size of matrices for multiplication.
+
+
+
+
+
+
+
+1. **CUDA Setup**: Installation of CUDA and required dependencies.
+2. **Kernel Function**: `multiply` function executed on GPU to perform matrix multiplication.
+3. **Grid and Blocks**: Organize threads into 2D grid and blocks for parallelism.
+4. **Thread Indexing**: Calculate row and column indices for each thread.
+5. **Memory Management**: Allocates memory on CPU and GPU.
+6. **Data Transfer**: Moves data between CPU and GPU memory.
+7. **Matrix Initialization**: Generates random values for matrices A and B.
+8. **Matrix Printing**: Display the content of matrices A, B, and C.
+9. **CUDA Memory Allocation**: Allocates memory on GPU for matrices X, Y, and Z.
+10. **Kernel Launch**: Launches the kernel function `multiply` for matrix multiplication.
+11. **Device-to-Host Copy**: Transfers the result matrix C from GPU memory to CPU memory.
+12. **Free Memory**: Releases allocated memory on both CPU and GPU.
+13. **Main Function**: Entry point of the CUDA program.
